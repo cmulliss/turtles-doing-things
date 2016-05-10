@@ -3,8 +3,7 @@
 import turtle
 import random
 
-colours = ['cyan', "purple", "green", "red", "blue"]
-
+colours = ['cyan', "purple", "green", "red", "blue", "red", "orange"]
 speedy = turtle.Turtle()
 speedy.shape('turtle')
 speedy.color('blue', 'green')
