@@ -3,11 +3,11 @@
 import turtle
 import random
 
-colours = ['cyan', "purple", "green", "red", "blue"]
-
+colours = ['cyan', "purple", "green", "red", "blue", "red", "orange"]
 speedy = turtle.Turtle()
 speedy.shape('turtle')
 speedy.color('blue', 'green')
+speedy.bgcolor("blue")
 
 for i in range(10):
     for i in range(2):
@@ -18,4 +18,4 @@ for i in range(10):
     speedy.right(36)   
     speedy.color(random.choice(colours))
 
-
+speedy.bgcolor("blue")

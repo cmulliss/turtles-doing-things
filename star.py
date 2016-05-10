@@ -1,11 +1,10 @@
-#snowflake.py from www.raspberrypi.org
-#with ammendments and gross liberties taken
+#coloured turtle drawing 5 point star
 import turtle
 
 turtle.shape('turtle')
-turtle.color('blue')
+turtle.color('magenta', 'cyan')
 speedy = turtle.Turtle()
-for i in range(10):
+for i in range(5):
     speedy.forward(100)
     speedy.right(60)
     speedy.forward(100)
