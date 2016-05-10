@@ -1,0 +1,23 @@
+from turtle import *
+color('magenta', 'cyan')
+#shape('turtle')
+circle(100)
+penup()
+goto(-30,100)
+pendown()
+circle(15)
+penup()
+goto(30,100)
+pendown()
+circle(15)
+penup()
+goto(-45,80)
+setheading(270)
+pendown()
+circle(50,180)
+penup()
+shapesize(3,3)
+goto(0,80)
+pendown()
+
+
