@@ -51,14 +51,6 @@ circle(5)
 end_fill()
 penup()
 
-'''#smile
-penup()
-goto(-50,50)
-setheading(270)
-pendown()
-circle(40,180)
-penup()'''
-
 #leftarm
 goto(-50,-30)
 pendown()
@@ -73,6 +65,13 @@ pendown()
 fd(100)
 rt(-30)
 fd(50)
+penup()
+
+#smile
+goto(-40,50)
+pendown()
+setheading(270)
+circle(35,180)
 penup()
 
 #carrot nose
