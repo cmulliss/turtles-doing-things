@@ -1,10 +1,13 @@
-# So that's one way to draw a snowman :)
+# Snowman with buttons, extra fingers, legs and scarf to come!
+
 from turtle import *
 
+#head
 circle(60)
 circle(-100)
 penup()
 
+#body
 goto(0,-30)
 pendown()
 begin_fill()
@@ -12,27 +15,12 @@ circle(5)
 end_fill()
 penup()
 
-goto(0,-50)
-pendown()
-begin_fill()
-circle(5)
-end_fill()
-penup()
+#button() buttons wanted at (0,-50 -70 -90 etc)
+from buttons import buttons
 
-goto(0,-70)
-pendown()
-begin_fill()
-circle(5)
-end_fill()
-penup()
-
-goto(0,-90)
-pendown()
-begin_fill()
-circle(5)
-end_fill()
-penup()
-
+buttons()
+    
+#eyes
 goto(-30, 60)
 pendown()
 begin_fill()
@@ -46,14 +34,6 @@ begin_fill()
 circle(5)
 end_fill()
 penup()
-
-'''#smile
-penup()
-goto(-50,50)
-setheading(270)
-pendown()
-circle(40,180)
-penup()'''
 
 #leftarm
 goto(-50,-30)
@@ -69,6 +49,13 @@ pendown()
 fd(100)
 rt(-30)
 fd(50)
+penup()
+
+#smile
+goto(-40,50)
+pendown()
+setheading(270)
+circle(35,180)
 penup()
 
 #carrot nose
