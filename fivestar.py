@@ -2,7 +2,7 @@
 from turtle import *
 shape('turtle')
 mode('logo')
-color('red', 'yellow')
+color('magenta', 'cyan')
 
 for i in range(5):
     fd(200)
