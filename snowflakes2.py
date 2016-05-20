@@ -20,13 +20,13 @@ def branch():
             rt(45)
         lt(90)
         bk(30)
-        left(45)
+        left(45) # this produces the first branch
     rt(90)
     fd(90)
 
-for i in range(6):
+for i in range(8):
     branch()
-    lt(30)
+    lt(45)
     
     
 
