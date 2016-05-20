@@ -12,9 +12,25 @@ setpos(90,0)
 lt(45)
 pendown()
 
-for i in range(3):
+def branch():
     for i in range(3):
-        fd(30)
+        for i in range(3):
+            fd(30)
+            bk(30)
+            rt(45)
+        lt(90)
         bk(30)
-    rt(45)
+        left(45)
+    rt(90)
+    fd(90)
+
+for i in range(6):
+    branch()
+    lt(30)
+    
+    
+
+
+        
+    
 
