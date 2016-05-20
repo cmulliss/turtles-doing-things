@@ -1,5 +1,5 @@
 #snowflake.py from www.raspberrypi.org
-#with ammendments and gross liberties taken
+#with ammendments
 import turtle
 from random import choice
 

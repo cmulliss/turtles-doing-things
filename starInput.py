@@ -8,6 +8,8 @@ for a 5 pointer
 internal angle = 180 / 5
 and therefore turn angle is
 180 - 36 = 144
+also
+setheading is set to half the internal angle to prevent lopsidedness!
 '''
 
 shape('turtle')
