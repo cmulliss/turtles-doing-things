@@ -9,10 +9,11 @@ bgcolor('blue')
 pensize(2)
 shapesize(1)
 speed(600)
-colours = ['cyan', 'white', 'green', "red", 'yellow', 'red', 'orange', 'pink']
+colours = ['cyan', 'white', 'green', "red", 'yellow', 'red', 'orange', 'pink','purple', 'magenta','grey', 'turquoise' ]
 
 #beginning of snowflake function
 def snowflake(flakeSize):
+    color(random.choice(colours))
     dFull = random.randint(4, 80)
     dBranch = (dFull / 6)
     dRem = (dFull / 2)
@@ -20,7 +21,6 @@ def snowflake(flakeSize):
         fd(dFull)
 
         for i in range(3):
-            color(random.choice(colours))
             bk(dBranch)
             lt(60)
             fd(dBranch)
@@ -35,7 +35,7 @@ def snowflake(flakeSize):
 #end of snowflake function
         
 #loop to create multiple snowflakes in different locations
-for i in range(15):
+for i in range(20):
     x = random.randint(-400, 400)
     y = random.randint(-400, 400)
     flakeSize = random.randint(1, 100)
