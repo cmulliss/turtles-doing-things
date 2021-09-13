@@ -1,13 +1,3 @@
-# import turtle
-
-# t = turtle
-
-# for i in range(5):
-#     t.fd(50)
-#     t.rt(144)
-
-# turtle.done()
-
 from turtle import Turtle, Screen
 
 t = Turtle()  # turtle instance creation

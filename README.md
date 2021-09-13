@@ -53,4 +53,24 @@ for x in range(WIDTH):
 
 ## ending program
 
-* 
+* using:
+s = turtle.Screen()
+s.exitonclick()
+
+## Setting the size of turtle screen
+
+```python
+import turtle
+
+s = turtle.Screen()
+s.bgcolor("pink")
+s.title("Turtle spiral")
+s.setup(width=650, height=650)
+
+t = turtle.Turtle()
+t.shape("turtle")
+t.color("red")
+```
+
+or can use a fraction:
+s.setup(width=0.5, height=0.5)
