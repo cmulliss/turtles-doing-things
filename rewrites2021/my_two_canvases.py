@@ -12,12 +12,14 @@ def main():
     screen1 = TurtleScreen(canvas1)
     screen1.bgcolor(0.80, 0.80, 1)
     screen2 = TurtleScreen(canvas2)
+
     screen2.bgcolor(1, 0.80, 0.80)
 
     k = RawTurtle(screen1)
     j = RawTurtle(screen2)
 
     k.color("red", (1, 0.80, 0.80))
+    k.title("Title")
     k.width(5)
     j.color("blue", (0.8, 0.80, 1))
     j.width(5)
