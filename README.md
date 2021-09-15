@@ -74,3 +74,9 @@ t.color("red")
 
 or can use a fraction:
 s.setup(width=0.5, height=0.5)
+
+## pygame
+
+* python3 -m pip install pygame
+
+
