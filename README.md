@@ -79,4 +79,8 @@ s.setup(width=0.5, height=0.5)
 
 * python3 -m pip install pygame
 
+## root
 
+* root is the root window into which all other widgets go. It is an instance of the class Tk, and every tkinter application must have exactly one instance of this class.
+
+* in all cases, mainloop must be called. where it is called, and how, depends a bit on your coding style. Some people prefer to inherit from the root window, some don't. In either case, you must call the mainloop function of the root window.
